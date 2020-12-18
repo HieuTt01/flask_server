@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Phản hồi của khách hàng</h1>
+    <div class="container" align="left">
+        <embed type="image/svg+xml" src={{graph_data|safe}} style=
+        'max-width:750px' />
+    </div>
+    <h6>Theo ghi nhận, nhóm nghề trí thức thường có tỷ lệ đăng ký cao, như quản lý, kĩ thuật viên. Nguyên nhân có thể là do thu nhập của họ ổn định, dư dả nên có thể đăng ký gửi tiền có kỳ hạn.</h6>
+    <h6>Ngoài ra, người đã nghỉ hưu cũng thuộc nhóm có tỷ lệ đăng ký cao.</h6>
+    <h6>Ngân hàng nên tập trung vào những nhóm nghề có tỉ lệ như vậy (>10%), giúp giảm bớt quảng cáo không cần thiết và tăng sự hài lòng của khách hàng.</h6>
+{% endblock content%}

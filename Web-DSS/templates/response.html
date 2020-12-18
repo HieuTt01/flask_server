@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Phản hồi của khách hàng</h1>
+    <div class="container" align="left">
+        <embed type="image/svg+xml" src={{graph_data|safe}} style=
+        'max-width:500px' />
+    </div>
+	<h6>Số lượng khách hàng không đăng ký gửi tiền theo kỳ hạn là: {{lb0}} người</h6>
+	<h6>Số lượng khách hàng có đăng ký gửi tiền theo kỳ hạn là: {{lb1}} người</h6>
+{% endblock content%}
